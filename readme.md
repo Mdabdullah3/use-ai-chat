@@ -84,10 +84,13 @@ const { messages, sendMessage } = useAiChat(ai, {
 
 3. Multiple AI Providers
 
-Feature OpenAI Gemini
-Chat ✅ ✅
-Text Complete ✅ ✅
-Image Support ❌ ✅
+## Supported Features
+
+| Feature       | OpenAI | Gemini |
+| ------------- | ------ | ------ |
+| Chat          | ✅     | ✅     |
+| Text Complete | ✅     | ✅     |
+| Image Support | ❌     | ✅     |
 
 4. Full Type Safety
 
