@@ -1,15 +1,25 @@
 {
-  "name": "use-ai-chat",
+  "name": "use-ai-chat-hooks",
   "version": "1.0.0",
+  "description": "React hooks for AI chat (OpenAI/Gemini)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "description": "A React hook for AI chat functionality.",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch",
-    "prepublish": "npm run build"
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "hooks",
+    "ai",
+    "chatgpt",
+    "gemini",
+    "openai"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
